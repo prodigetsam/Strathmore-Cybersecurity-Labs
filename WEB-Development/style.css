@@ -1,0 +1,65 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("Image9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+section{
+  margin: 50px;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Cambria";
+  font-size: 40px
+}
+h2{
+  color: white;
+  font-family: "Cambria";
+  text-decoration: underline;
+  text-align: center;
+}
+nav{
+  background-color: rgb(255, 255, 255);
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.4;
+}
+nav ol li{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+nav ol li a{
+  color: rgb(0, 0, 0);
+  font-family: "Cambria";
+  font-size: 30px;
+  text-decoration: none;
+}
+p{
+  color: white;
+  font-family: "Cambria";
+  font-size: 20px
+}
+a{
+  color: rgb(255, 255, 255);
+  font-family: "Cambria";
+  font-size: 20px;
+}
+
+ol{
+  list-style-type: disc; color: white;
+  font-family: "Cambria";
+  font-size: 20px;}
